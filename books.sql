@@ -1,0 +1,15 @@
+create database book;
+use book;
+create table books(book_category varchar(20), book_id int, book_name varchar(40), book_author varchar(30),book_price int,book_publisher varchar(20),quantity int);
+insert into books values('C',101,'C programming' , 'Reema Thereja', 565, 'Sahni',5 );
+insert into books values('C++',107,'C++ programming' , 'ASHOK KAMTHANE', 565, 'ROLI BOOKS',4 );
+insert into books values('JAVA',110,'JAVA programming' , 'E-BALAGURUSWAMY', 700, 'ALEPH',8 );
+insert into books values('ENGLISH',117,'ENGLISH HONEYBEE' , 'ROBERT FROST', 175, 'PENGUIN RANDOM',13 );
+insert into books values('PYTHON',108,'PYTHON programming' , 'ADNAN AZIZ', 485, 'WESTLAND',7);
+insert into books values('SANSKRIT',191,'SANSKRIT JUNIOR' , 'TULSIDAS', 265, 'HINDUS',9 );
+insert into books values('DATA STRUCTURE',525,'DATA STRUCTURE' , 'NARASIMHA', 395, 'ALEPH',15 );
+insert into books values('MATHS',121,'MATHS CLASS 10TH' , 'PAWAN KUMAR',248, 'NCERT',25 );
+insert into books values('SCIENCE',211,'DINESH SCIENCE ' , 'DINESH', 1150, 'KARMA',25 );
+insert into books values('HISTORY',311,'HISTORY OF INDIA' , 'RAVI DAS', 675, 'NCERT',15 );
+insert into books values('GEOGRAPHY',156,'KNOW YOUR CLIMATE' , 'TOPPO',355, 'WESTLAND',5 );
+SELECT * FROM books;
